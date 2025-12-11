@@ -12,7 +12,7 @@
 
 O projeto está hospedado e pode ser acessado através do link abaixo:
 
-🔗 **Acesse a aplicação aqui:** [[[API ACCESS]](https://api-pay-challenge.vercel.app/)
+🔗 **Acesse a aplicação aqui:** [API ACCESS](https://api-pay-challenge.vercel.app/)
 ---
 
 ## 📋 Sobre o Projeto
