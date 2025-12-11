@@ -17,8 +17,13 @@ export function useAuthController() {
                 alert('Account created! Please log in.');
             } else {
                 const data = await AuthService.login(email, password);
-                localStorage.setItem('token', data.token);
-                router.push('/books');
+                if(data.token){
+                    localStorage.setItem('token', data.token);
+                    router.push('/books');
+                }else{
+                    alert('Login failed. Check your credentials or register.');
+                }
+
             }
         } catch (err) {
             alert('Operation failed. Check your credentials.');
